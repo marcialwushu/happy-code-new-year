@@ -6,7 +6,7 @@ O final do ano de 2017 chegou, então preparei esta publicação para todos os p
 
 O melhor truque é não usar o hardcode e ficar inserindo o ano dentro de seus modelos e skins, mas sim escrever o ano atual de forma dinâmica usando as funções da data, então abaixo está uma lista de impressão do ano atual em 10 linguagens de programação diferentes.
 
-- [Python](# Python)
+- [Python](#Python)
 - PHP
 - C/C++
 - JavaScript
@@ -26,6 +26,7 @@ O melhor truque é não usar o hardcode e ficar inserindo o ano dentro de seus m
 - Haskell
 
 # Python
+
 ```
 from datetime import date
 print date.today().year
