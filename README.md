@@ -6,8 +6,8 @@ O final do ano de 2017 chegou, então preparei esta publicação para todos os p
 
 O melhor truque é não usar o hardcode e ficar inserindo o ano dentro de seus modelos e skins, mas sim escrever o ano atual de forma dinâmica usando as funções da data, então abaixo está uma lista de impressão do ano atual em 10 linguagens de programação diferentes.
 
-- [Python](#Python)
-- [PHP](#PHP)
+- [Python](#python)
+- [PHP](#php)
 - [C/C++](#C/C++)
 - JavaScript
 - Perl
@@ -25,13 +25,13 @@ O melhor truque é não usar o hardcode e ficar inserindo o ano dentro de seus m
 - Delphi
 - Haskell
 
-# Python
+### Python
 
 ```
 from datetime import date
 print date.today().year
 ```
-# PHP
+### PHP
 
 Definitely one of the easiest ways.
 
@@ -40,7 +40,7 @@ echo date("Y");
 
 ```
 
-# C and C++
+### C and C++
 
 ```
 #include <stdio.h>
@@ -55,7 +55,7 @@ int main() {
 
 ```
 
-# JavaScript
+### JavaScript
 
 ```
 
@@ -63,7 +63,7 @@ document.write(new Date().getFullYear());
 
 ```
 
-# Perl
+### Perl
 
 ```
 
@@ -72,14 +72,14 @@ print $year + 1900;
 
 ```
 
-# Ruby
+### Ruby
 
 ```
 puts Time.now.year
 
 ```
 
-# Java
+### Java
 
 ```
 
@@ -96,7 +96,7 @@ public class Apollo {
 
 ```
 
-# Unix Shell
+### Unix Shell
 
 Seems to be the shortest one of all.
 
@@ -106,7 +106,7 @@ date +%Y
 
 ```
 
-# Go (golang)
+### Go (golang)
 
 Interesting fact that when I ran this code on the Go website I ended up with 2009 — guess their servers are running a little slow?
 
@@ -123,7 +123,7 @@ func main() {
 
 ```
 
-# x86 Assembly
+### x86 Assembly
 
 Here’s a special one, donated by my brother @SoulSeekah.
 
@@ -165,7 +165,7 @@ start:
   
   ```
   
-# Lua
+### Lua
 
 Code by Vesa Marttila (@ponzao).
 
@@ -175,7 +175,7 @@ print(os.date("*t").year)
 
 ```
 
-# Clojure
+### Clojure
 
 Once again thanks to Vesa Marttila (@ponzao).
 
@@ -187,7 +187,7 @@ Once again thanks to Vesa Marttila (@ponzao).
   
 ```
 
-# Objective-C
+### Objective-C
 
 Donated by Lowell via the comments section.
 
@@ -206,7 +206,7 @@ int main (int argc, const char * argv[]) {
 
 ```
 
-# C# (C-Sharp)
+### C# (C-Sharp)
 
 Contributed by a certain Paul via the comments.
 
@@ -222,7 +222,7 @@ class Program {
 
 ```
 
-# Tcl
+### Tcl
 
 Contributed by Robert.
 
@@ -233,7 +233,7 @@ puts $year
 
 ```
 
-# Adobe Flex
+### Adobe Flex
 
 Seems to work with both Flex 3 and 4, contributed by Uber_Nick via reddit.com comments.
 
@@ -246,7 +246,7 @@ Seems to work with both Flex 3 and 4, contributed by Uber_Nick via reddit.com co
 
 ```
 
-# Delphi
+### Delphi
 
 Thanks to Rejn via comments and Reddit.
 
@@ -256,7 +256,7 @@ ShowMessage( IntToStr(YearOf(Now)) );
 
 ```
 
-# Haskell
+### Haskell
 
 Thanks to Pezezin via comments and Onmach via Reddit.
 
@@ -267,7 +267,7 @@ main = getClockTime >>= toCalendarTime >>= print . ctYear
 
 ```
 
-# LOLCODE
+### LOLCODE
 
 by Danita via Reddit.
 
@@ -280,14 +280,14 @@ VISIBLE YEAR IN MAH 'CALENDAR'
 KTHXBYE
 
 ```
-# Io Language:
+### Io Language:
 
 ```
 Io> Date year
 ==> 2010
 
 ```
-# REXX (REstructured eXtended eXecutor)
+### REXX (REstructured eXtended eXecutor)
 
 ```
 substr(date('S',1,4))
