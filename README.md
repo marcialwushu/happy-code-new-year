@@ -287,4 +287,11 @@ Io> Date year
 ==> 2010
 
 ```
+# REXX (REstructured eXtended eXecutor)
+
+```
+substr(date('S',1,4))
+
+```
+
 
