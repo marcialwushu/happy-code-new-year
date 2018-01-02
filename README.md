@@ -8,22 +8,22 @@ O melhor truque é não usar o hardcode e ficar inserindo o ano dentro de seus m
 
 - [Python](#python)
 - [PHP](#php)
-- [C/C++](#C/C++)
-- JavaScript
-- Perl
-- Ruby
-- Java
-- Unix Shell
-- Go (golang)
-- x86 Assembly
-- Lua
-- Clojure
-- Objective-C
-- C# (C-Sharp)
-- Tcl
-- Adobe Flex
-- Delphi
-- Haskell
+- [C/C++](#c/cpp)
+- [JavaScript](#javascript)
+- [Perl](#perl)
+- [Ruby](#ruby)
+- [Java](#java)
+- [Unix Shell](#unix-shell)
+- [Go (golang)](#go)
+- [x86 Assembly](#x86-assembly)
+- [Lua](#lua)
+- [Clojure](#clojure)
+- [Objective-C](#objective-c)
+- [C# (C-Sharp)](#c-sharp)
+- [Tcl](#tcl)
+- [Adobe Flex](#adobe-flex)
+- [Delphi](#delphi)
+- [Haskell](#haskell)
 
 ### Python
 
