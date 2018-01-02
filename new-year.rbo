@@ -1,0 +1,2 @@
+dim d as new date
+MsgBox str(d.Year)
