@@ -280,4 +280,11 @@ VISIBLE YEAR IN MAH 'CALENDAR'
 KTHXBYE
 
 ```
+# Io Language:
+
+```
+Io> Date year
+==> 2010
+
+```
 
